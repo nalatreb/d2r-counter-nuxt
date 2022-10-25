@@ -1,0 +1,5 @@
+{
+  "[typescript,vue]": {
+    "editor.tabSize": 2
+  }
+}
