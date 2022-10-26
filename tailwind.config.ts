@@ -1,7 +1,7 @@
 module.exports = {
-  //...
   plugins: [require("daisyui")],
   daisyui: {
-    themes: ["cupcake", "dark", "cmyk"],
+    themes: ["cupcake", "halloween"],
+    darkTheme: "halloween",
   },
 };

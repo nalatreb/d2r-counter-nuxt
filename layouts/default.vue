@@ -1,5 +1,5 @@
-<template>
-  <div>
+<template data-theme="light">
+  <div class="container mx-auto">
     <header>
       <nav>
         <ul class="navbar bg-base-100">
@@ -26,6 +26,8 @@
         </ul>
       </nav>
     </header>
-    <slot />
+    <div>
+      <slot />
+    </div>
   </div>
 </template>
